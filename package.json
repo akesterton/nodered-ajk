@@ -1,0 +1,20 @@
+{
+  "name": "nodered-ajk",
+  "version": "0.0.1",
+  "description": "Node.js example app for OpenShift 3",
+  "main": "server.js",
+  "dependencies":{
+    "http":"*"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/akesterton/nodered-ajk.git"
+  }
+}
