@@ -10,7 +10,8 @@ var server = http.createServer(function (request, response) {
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
     ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 // Listen on port 8000, IP defaults to 127.0.0.1
+
 server.listen(port,ip);
 
 // Put a friendly message on the terminal
-console.log("Server running at http://127.0.0.1:8000/");
+console.log("Server running at http://"+ip+":"+port+"/");
